@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<! ELEMENT items(item+)>
+<!ATTLIST item id CDATA #REQUIRED>
+<!ELEMENT item(name, price)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price(#PCDATA)>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="Courses">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Course" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="Cnum" type="xsd:string" />
+                            <xsd:element name="desc" type="xsd:string" />
+                            <xsd:element name="section" type="xsd:string" />
+                            <xsd:element name="instructor" type="xsd:string" />
+                        </xsd:sequence>
+                        <xsd:attribute name="num" use="optional" />
+                    </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:element>
+</xsd:schema> 

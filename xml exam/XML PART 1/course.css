@@ -1,0 +1,25 @@
+Courses {
+    margin: 0;
+    padding: 0;
+    background-color: #E6E6DC;
+    font-family: Helvetica, sans-serif;
+}
+
+Cnum {
+    display:block;
+    margin-top:2em;
+    font-size:1.5em;
+	text-align:left;
+	padding: 0;
+    color: #00628B;
+}
+desc, section, instructor {
+    display:block;
+    padding-top:3em;
+    padding-left:2em;
+    padding-bottom:2em;
+    text-align:left;
+    font-size: 1.2em;
+    color: #00628B;
+}
+}

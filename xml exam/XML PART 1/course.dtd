@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Courses (Course+)>
+<!ATTLIST Course num CDATA #REQUIRED>
+<!ELEMENT Course (Cnum, desc, section, instructor)>
+<!ELEMENT Cnum (#PCDATA)>
+<!ELEMENT desc (#PCDATA)>
+<!ELEMENT section (#PCDATA)>
+<!ELEMENT instructor (#PCDATA)>

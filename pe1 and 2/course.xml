@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="course.css"?>
+<!DOCTYPE Courses SYSTEM "course.dtd">
+<Courses>
+    <Course num="1">
+        <Cnum> ISTE 230</Cnum>
+        <desc> IntroToDatabaseAndDataModeling</desc>
+        <section>700(LEL)58620 </section>
+        <instructor> Toni Njiric </instructor>
+    </Course>
+    <Course num="2">
+        <Cnum> ISTE 240</Cnum>
+        <desc> Web &amp;MobileII</desc>
+        <section>03S1(SPL)57182 </section>
+        <instructor>Jim Habermas </instructor>
+    </Course>
+    <Course num="3">
+        <Cnum> ISTE 240 </Cnum>
+        <desc> Web &amp; MobileII</desc>
+        <section> 500B(SBL)58741 </section>
+        <instructor>Ermir Rogova </instructor>
+    </Course>
+</Courses>
